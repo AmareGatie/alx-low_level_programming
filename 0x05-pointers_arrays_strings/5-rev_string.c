@@ -15,7 +15,7 @@ while(s[c] != '\0')
 c++;
 for (i = 0; i < c; i++)
 {
-	c--
+	c--;
 	rv = s[i];
 	s[i] = s[c];
 	s[c] = rv;
